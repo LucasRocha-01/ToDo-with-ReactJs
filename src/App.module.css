@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin: calc(0px - 1rem) auto;
+    max-width: 44rem;
+    gap: 4rem;
+    flex-direction: column;
+}
+
+.counters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 375px) {
+    .container {
+        margin: calc(0px - 1rem) auto;
+        width: max-content;
+    }
+}

@@ -1,0 +1,9 @@
+.component {
+    background: var(--gray-700);
+    display: flex;
+    justify-content: center;
+}
+
+.component img {
+    padding: 72px 0 80px;
+}

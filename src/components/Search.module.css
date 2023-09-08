@@ -1,0 +1,46 @@
+.form {
+    display: flex;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.component {
+    background: var(--gray-500);
+    border: 1px solid var(--Gray-700);
+    flex: 1;
+    padding: 1rem;
+}
+
+.input {
+    color: var(--gray-100);
+    background: var(--gray-500);
+    border: 0;
+}
+
+.input:focus-visible {
+    border: 0;
+    outline: 0;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--blue-dark);
+    padding: 1rem;
+    gap: 0.5rem;
+    color: var(--gray-100);
+}
+
+
+.button:hover {
+    background: var(--blue);
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.button,
+.component {
+    border-radius: 8px;
+    border: 0;
+}
